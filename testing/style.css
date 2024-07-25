@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-sarif;
+    color: #f8f3f3;
+    box-sizing: border-box;
+}
+body{
+    background: url(./images/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position:  center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 99;
+    /* background-color:rgba(0, 0, 0, 0.5); */
+}
+header .logo{
+    flex: 1;
+    margin-left: 50px;
+    padding: 0;
+}
+header ul{
+    display: flex;
+    flex: 2;
+    margin-left: 30px;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    justify-content: space-evenly;
+    padding: 10px 15px;
+}
+header ul li a:hover{
+    border-bottom: 2px solid white;
+}
+.menu-icon{
+    font-size: 24px;
+    cursor: pointer;
+    align-items: center;
+    margin-right: 50px;
+}
+.menu-icon:hover{
+    border-bottom:2px solid white;
+}
+main{
+    display: flex;
+    padding-top: 100px;
+    margin: 20px;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    margin-left: 100px;
+    height: 100vh;
+}
+.name{
+    padding: 20px;
+    text-align: left;
+    height: 300px;
+    width: 100%;
+}
+.name h1{
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.name h3{
+    margin: 7px 0;
+    font-size: 0.9em;
+    color: rgb(82, 82, 81);
+    margin-right: 0;
+    
+}
+
+.name button{
+    width: 50%;
+    height: 30px;
+    font-size: 14px;
+    border-radius: 30px;
+    border-color:white;
+    background: hsla(240, 90%, 4%, 0.847);
+    color: white;
+    border: 1px solid;
+    margin-top: 50px;
+    justify-content: center;
+}
+.name button:hover{
+    cursor: pointer;
+}
+.slider{
+    padding: 20px;
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin-right: 50px;
+}
+.slide-number{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.arrows .prev, .arrows .next{
+    cursor: pointer;
+    padding: 0 10px;
+}
+.view-profile{
+    padding: 10px 20px;
+    border-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+.socials-slider{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    justify-content: right;
+}
+
+.socials-slider h3{
+    display: flex;
+    position: absolute;
+
+}
+.social-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-links ul li{
+    list-style: none;
+}
+.social-links ul li a{
+    text-decoration: none;
+    margin-left: 40px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(18, 79, 133);
+    background-position: center;
+    background-size: cover;
+}
